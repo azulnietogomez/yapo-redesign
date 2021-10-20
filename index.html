@@ -14,6 +14,7 @@
     <title>Yapo - Publica anuncios y encuentra lo que buscas</title>
 </head>
 <body>
+    <!--HEADER-->
     <header>
         <img src="./assets/Logo_mobile.svg" alt="Logo Yapo" class="logo-mobile">
         <img src="./assets/logo_desktop.png" alt="" class="logo-desktop">
@@ -22,5 +23,44 @@
             <a href="" class="post__btn btn">PUBLICAR</a>
         </div>
     </header>
+    <!--MAIN SECTION "FORM"-->
+    <main>
+        <section class="search">
+            <form action="search" name="search">
+                <input type="text" id="busqueda" name="busqueda" placeholder="¿Qué buscas?">
+                <input name="region" list="region" placeholder="¿En que región?">
+                <datalist id="region">
+                    <option value="1">Región de Arica y Parinacota.</option>
+                    <option value="2">Región de Tarapacá.</option>
+                    <option value="3">Región de Antofagasta.</option>
+                    <option value="4">Región de Atacama.</option>
+                    <option value="5">Región de Coquimbo.</option>
+                    <option value="6">Región de Valparaíso.</option>
+                    <option value="7">Región Metropolitana de Santiago.</option>
+                    <option value="8">Región del Libertador General Bernardo O’Higgins.</option>
+                    <option value="9">Región del Maule.</option>
+                    <option value="10">Región del Ñuble.</option>
+                    <option value="11">Región del Biobío.</option>
+                    <option value="12">Región de La Araucanía.</option>
+                    <option value="13">Región de Los Ríos.</option>
+                    <option value="14">Región de Los Lagos.</option>
+                    <option value="15">Región de Aysén del General Carlos Ibáñez del Campo.</option>
+                    <option value="16">Región de Magallanes y la Antártica Chilena.</option>
+                </datalist>
+                <input type="text" name="category" list="category" placeholder="Elige una categoría">
+                <datalist id="category">
+                    <option value="Deportes"></option>
+                    <option value="Muebles"></option>
+                    <option value="Autos"></option>
+                    <option value="Renta y venta de casas"></option>
+                    <option value="Pasatiempos"></option>
+                </datalist>
+                <button class="search-btn" type="submit">BUSCAR</button>
+            </form>
+            <aside class="right-img">
+                <img src="./assets/hero-img.png" alt="ilustración decorativa">
+            </aside>
+        </section>
+    </main>
 </body>
 </html>
