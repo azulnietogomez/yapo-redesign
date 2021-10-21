@@ -113,14 +113,13 @@ header {
 .promoted-ads__bg {
     width: 100%;
     height: 260px;
-    padding: 20px 0px 20px 0px;
+    padding: 20px 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
     border-radius: 5px;
     background-color: var(--cool-grey);
-    overflow: scroll;
+    overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
@@ -135,6 +134,7 @@ header {
     align-items: center;
     background-color: white;
     border-radius: 5px;
+    scroll-snap-align: center;
 }
 
 .card img {
@@ -272,3 +272,16 @@ header {
 
 /*FOOTER*/
 
+footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cool-grey);
+}
+
+.sign {
+    font-size: 1.3rem;
+
+}
