@@ -64,7 +64,7 @@ header {
 }
 
 /*SECTIONS STYLES*/
-.search, .promoted-ads, .info, .instructions {
+.search, .promoted-ads, .instructions {
     min-width: 317px;
     min-height: 205px;
     padding: 10px 30px;
@@ -175,5 +175,100 @@ header {
 
 /*INFO LABELS*/
 
+.info {
+    min-width: 317px;
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info__card {
+    width: 40%;
+    min-width: 260px;
+    height: 63px;
+    margin-bottom: 10px;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    background-color: var(--yapo-blue);
 
 }
+
+.info__card p span {
+    color: var(--yapo-orange);
+}
+
+/*INSTRUCTIONS STYLES*/
+
+.instructions h1 {
+    margin-bottom: 12px;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 3.5rem;
+    text-align: center;
+}
+
+.instructions p {
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 2.1rem;
+    text-align: center;
+}
+
+.steps-container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.steps {
+    min-width: 240px;
+    height: 88px;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.step__number {
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yapo-orange);
+    border-radius: 10px;
+}
+
+.step__number .number {
+    font-size: 6rem;
+    font-weight: 700;
+    color: white;
+}
+
+.step__text .step__text--black {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.9rem;
+}
+
+.step__text .step__text--orange {
+    color: var(--yapo-orange);
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.9rem;
+}
+
+/*FOOTER*/
+
