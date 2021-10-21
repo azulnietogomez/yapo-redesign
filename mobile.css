@@ -63,3 +63,47 @@ header {
     background-color: var(--yapo-blue);
 }
 
+/*SECTIONS STYLES*/
+.search, .promoted-ads, .info, .instructions {
+    min-width: 317px;
+    min-height: 205px;
+    padding: 10px 30px;
+}
+/*SEARCH AND FORM STYLES*/
+
+.right-img {
+    display: none;
+}
+
+.search form {
+    width: 100%;
+    max-width: 440px;
+    max-height: 206px;
+    padding: 20px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: var(--cool-grey);
+}
+
+.search form input {
+    width: 90%;
+    height: 31px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-btn {
+    width: 90%;
+    height: 48px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    color: white;
+    background-color: var(--yapo-orange);
+    cursor: pointer;
+}
