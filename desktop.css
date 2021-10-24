@@ -29,3 +29,6 @@ header {
     max-width: 300px;
 }
 
+.promoted-ads__bg {
+    overflow-y: hidden;
+}
